@@ -12,6 +12,7 @@ body{
     height: 3020px;
     border: solid 2px;
     margin: auto;
+    font-family: Helvetica;
 }
 .contenedor{
     width: 1366px;
@@ -70,7 +71,7 @@ h3{
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;margin-top: 5rem;
 
 
 
@@ -114,7 +115,9 @@ h4{
 .art-1{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    margin-bottom: 20px;
+
 }
 .text-1 p{
     width: 590px;
@@ -123,6 +126,31 @@ h4{
 }
 h5{
     margin-left: 10px;
+    font-family:Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1F3F68;
+    margin-bottom: 10px;
+}
+
+.nombre{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 10px;
+   
+
+}
+
+.nombre strong{
+    display: block;
+    color: #1F3F68;
+    font-size: 14px;
+    font-weight: 700;
+}
+.nombre p{
+    margin: 0;
+    color:#00000066 ;
 }
 
 /* Pie */
@@ -139,6 +167,7 @@ h5{
     
     height: 260px;
     display: flex;
+    margin-bottom: 50px;
 }
 .sub-info h6{
     width: 304px;
@@ -151,17 +180,26 @@ h5{
     height: 80px;
     font-size: 16px;
     color: #ffff;
+    font-family: Arial;
+    
+}
+.linea{
+    margin: 0;
+    width: 1366px;
 }
 .info input{
     background-color:#5A98D0;
     width: 220px;
     height: 56px;
-    color: #ffff    ;
+    color: #ffff;
+    font-size: 16px;
+   
 }
 .info{
     padding-top: 60px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .pie-1{
     display: flex;
@@ -171,34 +209,104 @@ h5{
 .contacto{
     display: flex;
     justify-content: left;
-    column-gap: 10%;
-    margin-left: 50px;
+    column-gap: 20%;
+    margin-left: 10rem;
+    color: #ffff;
+    margin-bottom: 50px;
     
 }
-
+.contacto span{
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: 700;
+}
+.contacto ul>li{
+    margin-top: 20px;
+    font-size: 16px;
+}
 .sub{
     display: flex;
     justify-content: space-around;
+    gap: 50px;
+    
 }
 .about{
-    padding-right: 50px;
+    padding-right: 70px;
 }
-
+h6{
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.follow{
+    margin-left: 70px;
+}
 .afr{
     display: flex;
+    margin-bottom: 20px;
+
 }
 .afr img{
     padding: 0;
+    width: 30px;
+    height: 20px;
+   
 }
 .A{
+    margin-left: 15px;
     display: flex;
+    margin-bottom: 20px;
 }
 .T{
+    margin-left: 15px;
     display: flex;
+    margin-bottom: 20px;
 }
 .E{
+    margin-left: 15px;
     display: flex;
+    margin-bottom: 20px;
 }
 .espacio{
     margin-right: 10px;
 }
+.listados{
+    list-style-type: none;
+}
+.derecha{
+    margin-left: 20px;
+}
+.final{
+    margin: 60px 0;
+    font-family: Arial;
+    color: #b9b2b2;
+    margin-left:11rem ;
+    text-align:left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width : 800px) {
+    body{
+        width: 800px;
+    }
+    .contenedor{
+        
+        width: 800px;
+    }
+    .hero{
+        background-size: 800px;
+        background-repeat: no-repeat;
+    }
+    .text1{
+        display: flex;
+        flex-direction: column;
+    }
+    .tres{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 800px;
+    }
+  }
