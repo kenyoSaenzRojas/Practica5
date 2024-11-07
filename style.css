@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    /* width: 1366px; */
+    /* height: 100vh; */
+}
+body{
+    width: 1366px;
+    height: 3020px;
+    border: solid 2px;
+    margin: auto;
+}
+.contenedor{
+    width: 1366px;
+    height: 3120px;
+
+}
+
+.navegador{
+
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.lista{
+    display: flex;
+    list-style-type: none;
+}
+.lista li{
+    margin-left: 10px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/tiitle.png);
+    width: 1366px;
+    height: 250px;
+}
+.hero p{
+    width: 400px;
+    text-align: center;
+
+}
+
+/* texto */
+
+.uno{
+    margin-top: 30px;
+    width: 941px;
+    height: 850px;
+    /* height:1044px; */
+    margin: 10px auto;
+}
+.text1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.subtexto p{
+    width: 380px;
+    height: 201px;
+}
+hr{
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+/* texto */
+
+.tres{
+    margin-top: 50px;
+}
+
+.img{
+    display: flex;
+    gap: 20px;
+}
+.img-1{
+    display: flex;
+    flex-direction: column;
+
+}
+h4{
+    margin: 10px;
+    color: #1F3F68;
+}
+
+/* articulo */
+.art-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-1 p{
+    width: 590px;
+    height: 80px;
+    margin-left: 10px;
+}
+h5{
+    margin-left: 10px;
+}
