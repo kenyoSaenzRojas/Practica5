@@ -29,6 +29,7 @@ body{
 .lista{
     display: flex;
     list-style-type: none;
+    font-family: Helvetica;
 }
 .lista li{
     margin-left: 10px;
@@ -47,6 +48,13 @@ body{
     width: 400px;
     text-align: center;
 
+}
+h3{
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 36px;
+    color: #1F3F68;
+    margin-bottom: 20px;
 }
 
 /* texto */
@@ -93,8 +101,13 @@ hr{
 
 }
 h4{
-    margin: 10px;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 22px;
     color: #1F3F68;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 /* articulo */
@@ -110,4 +123,82 @@ h4{
 }
 h5{
     margin-left: 10px;
+}
+
+/* Pie */
+
+.pie{
+    margin-top: 70px;
+    background-color: #316099;
+    width: 1366px;
+    height: 50x;
+    padding-bottom: 70px;
+}
+
+.info{
+    
+    height: 260px;
+    display: flex;
+}
+.sub-info h6{
+    width: 304px;
+    height: 92px;
+    font-size: 36px;
+    color: #ffff;
+}
+.sub-info p{
+    width: 460px;
+    height: 80px;
+    font-size: 16px;
+    color: #ffff;
+}
+.info input{
+    background-color:#5A98D0;
+    width: 220px;
+    height: 56px;
+    color: #ffff    ;
+}
+.info{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.pie-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto{
+    display: flex;
+    justify-content: left;
+    column-gap: 10%;
+    margin-left: 50px;
+    
+}
+
+.sub{
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    padding-right: 50px;
+}
+
+.afr{
+    display: flex;
+}
+.afr img{
+    padding: 0;
+}
+.A{
+    display: flex;
+}
+.T{
+    display: flex;
+}
+.E{
+    display: flex;
+}
+.espacio{
+    margin-right: 10px;
 }
